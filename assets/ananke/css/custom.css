@@ -1,0 +1,10 @@
+/* In your main.css or a custom CSS file */
+
+/* トップページの記事ブロックで、descriptionのみを表示するようにする */
+.home .nested-copy-line-height > *:not(p:first-of-type) {
+    display: none;
+  }
+  
+  .home .nested-copy-line-height > p:first-of-type {
+    display: block;
+  }

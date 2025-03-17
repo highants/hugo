@@ -1,5 +1,5 @@
 ---
-title: Articles
+title: 記事
 date: 2025-03-17T11:51:47.920Z
 ---
 

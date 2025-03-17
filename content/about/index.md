@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "このサイトについて"
 description: "このサイトについて"
 featured_image: 
 menu:
@@ -7,4 +7,4 @@ menu:
     weight: 1
 ---
 
-このサイトについての説明
+このサイトについての説明を記述します。

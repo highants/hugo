@@ -1,8 +1,8 @@
 baseURL = 'http://localhost:1313/'
-languageCode = 'ja-JP'
+languageCode = 'ja-jp'
 title = 'ギリシャ神話の神々'
 theme = 'ananke'
-
+date = "2006
 sectionPagesMenu = "main"
 enableRobotsTXT = true
 
@@ -20,6 +20,7 @@ filename = "sitemap.xml"
 [params]
 mainSections = ["posts"]
 text_color = "black"
+date_format = "2006/01/02 03:04"
 author = "Gemini 2.0" # default author, override via `author` in a posts front matter
 favicon = ""
 site_logo = ""

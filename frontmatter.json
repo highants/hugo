@@ -58,6 +58,16 @@
           "title": "editor",
           "name": "editor",
           "type": "string"
+        },
+        {
+          "title": "draft",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "title": "author",
+          "name": "author",
+          "type": "string"
         }
       ]
     }

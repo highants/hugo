@@ -13,7 +13,6 @@ tags:
 categories:
   - Gemini Deep Research
 editor: highants
-fmContentType: hugo
 ---
 
 

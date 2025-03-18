@@ -17,8 +17,8 @@
           "type": "datetime"
         },
         {
-          "title": "edit date",
-          "name": "edit date",
+          "title": "lastmod",
+          "name": "lastmod",
           "type": "datetime"
         },
         {
@@ -45,11 +45,6 @@
           "title": "editor",
           "name": "editor",
           "type": "string"
-        },
-        {
-          "title": "date date",
-          "name": "date date",
-          "type": "datetime"
         }
       ]
     }

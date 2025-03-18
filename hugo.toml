@@ -19,8 +19,8 @@ filename = "sitemap.xml"
 [params]
 mainSections = ["posts"]
 text_color = "black"
-date_format = "2006/01/02 03:04"
-timeZone = "Asia/Tokyo"
+date_format = "2006/01/02 15:04:05 MST"  # 好みのフォーマット。MSTは例(後述)
+timezone = "Asia/Tokyo" 
 author = "Gemini 2.0" # default author, override via `author` in a posts front matter
 favicon = ""
 site_logo = ""

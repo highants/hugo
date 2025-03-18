@@ -37,5 +37,5 @@ networks = [
   "bluesky",
 ]
 
-[params.ananke.social.bluesky]
-username = "kollitsch.dev"
+[params.highants.social.bluesky]
+username = "highants"

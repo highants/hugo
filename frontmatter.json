@@ -20,7 +20,7 @@
   "frontMatter.git.enabled": true,
   "frontMatter.taxonomy.contentTypes": [
     {
-      "name": "hugo",
+      "name": "default",
       "pageBundle": false,
       "previewPath": "/posts",
       "trailingSlash": false,

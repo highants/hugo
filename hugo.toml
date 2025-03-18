@@ -1,6 +1,5 @@
 baseURL = 'http://localhost:1313/'
 languageCode = 'ja-jp'
-timeZone = “Japan”
 title = 'ギリシャ神話の神々'
 theme = 'ananke'
 sectionPagesMenu = "main"

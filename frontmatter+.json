@@ -1,23 +1,10 @@
 {
   "$schema": "https://frontmatter.codes/frontmatter.schema.json",
-  "frontMatter.framework.id": "hugo",
-  "frontMatter.content.publicFolder": "static",
-  "frontMatter.preview.host": "http://localhost:1313",
-  "frontMatter.content.pageFolders": [
-    {
-      "title": "posts",
-      "path": "[[workspace]]/content/posts"
-    },
-    {
-      "title": "about",
-      "path": "[[workspace]]/content/about"
-    }
-  ],
-  "frontMatter.git.enabled": true,
   "frontMatter.taxonomy.contentTypes": [
     {
       "name": "default",
       "pageBundle": false,
+      "previewPath": null,
       "fields": [
         {
           "title": "title",
@@ -61,5 +48,25 @@
         }
       ]
     }
-  ]
+  ],
+  "frontMatter.framework.id": "hugo",
+  "frontMatter.content.publicFolder": "static",
+  "frontMatter.preview.host": "http://localhost:1313",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "posts",
+      "path": "[[workspace]]/content/posts",
+      "previewPath": "/posts",
+      "trailingSlash": false
+    },
+    {
+      "title": "about",
+      "path": "[[workspace]]/content/about"
+    },
+    {
+      "title": "content",
+      "path": "[[workspace]]/content"
+    }
+  ],
+  "frontMatter.git.enabled": true
 }

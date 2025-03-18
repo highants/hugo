@@ -6,18 +6,24 @@
   "frontMatter.content.pageFolders": [
     {
       "title": "posts",
-      "path": "[[workspace]]/content/posts"
+      "path": "[[workspace]]/content/posts",
+      "previewPath": "/posts",
+      "trailingSlash": false
     },
     {
       "title": "about",
-      "path": "[[workspace]]/content/about"
+      "path": "[[workspace]]/content/about",
+      "previewPath": "/about",
+      "trailingSlash": false
     }
   ],
   "frontMatter.git.enabled": true,
   "frontMatter.taxonomy.contentTypes": [
     {
-      "name": "default",
+      "name": "hugo",
       "pageBundle": false,
+      "previewPath": "/posts",
+      "trailingSlash": false,
       "fields": [
         {
           "title": "title",

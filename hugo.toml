@@ -19,7 +19,7 @@ filename = "sitemap.xml"
 [params]
 mainSections = ["posts"]
 text_color = "black"
-date_format = "2006/01/02 15:04:05"
+date_format = "2006-01-02 (Mon) 15:04"
 timeZone = "Asia/Tokyo" 
 author = "Gemini 2.0" # default author, override via `author` in a posts front matter
 favicon = ""

@@ -1,7 +1,7 @@
 ---
 title: アポロン：音楽、予言、そして太陽の神
-date: 2025-03-17T13:11:51.454Z
-edit date: null
+pub date: 2025-03-18T02:36:55.228Z
+edit date: 2025-03-18T02:36:57.103Z
 description: アポロンはギリシア神話の多才な神で、音楽、予言、癒しなど多くの役割を持ち、古代社会に影響を与えました。
 featured_image: no
 tags:

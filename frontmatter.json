@@ -15,6 +15,14 @@
       "path": "[[workspace]]/content/about",
       "previewPath": "/about",
       "trailingSlash": false
+    },
+    {
+      "title": "memo",
+      "path": "[[workspace]]/Documents/memo"
+    },
+    {
+      "title": "content",
+      "path": "[[workspace]]/content"
     }
   ],
   "frontMatter.git.enabled": true,
@@ -66,14 +74,19 @@
           "type": "string"
         },
         {
+          "title": "preview",
+          "name": "preview",
+          "type": "string"
+        },
+        {
+          "title": "fmContentType",
+          "name": "fmContentType",
+          "type": "string"
+        },
+        {
           "title": "draft",
           "name": "draft",
           "type": "draft"
-        },
-        {
-          "title": "author",
-          "name": "author",
-          "type": "string"
         }
       ]
     }

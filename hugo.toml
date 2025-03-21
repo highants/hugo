@@ -1,6 +1,6 @@
 baseURL = 'http://localhost:1313/'
 languageCode = 'ja-jp'
-title = 'ギリシャ神話の神々'
+title = '名前はまだない'
 theme = 'ananke'
 sectionPagesMenu = "main"
 enableRobotsTXT = true

@@ -1,7 +1,7 @@
 ---
-title: "ギリシャ神話の神々"
+title: "名前はまだない"
 
-description: "AIによる生成解説"
+description: "とりまAIによる生成解説"
 theme_version: '2.8.2'
 cascade:
   featured_image: '/images/island.jpg'

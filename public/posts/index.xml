@@ -1,61 +1,61 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>記事履歴 on ギリシャ神話の神々</title>
+    <title>投稿履歴 on 名前はまだない</title>
     <link>http://localhost:1313/posts/</link>
-    <description>Recent content in 記事履歴 on ギリシャ神話の神々</description>
+    <description>Recent content in 投稿履歴 on 名前はまだない</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 21 Mar 2025 02:31:08 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 21 Mar 2025 19:26:49 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ノートルダム・ド・パリ</title>
       <link>http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris/</link>
-      <pubDate>Fri, 21 Mar 2025 02:31:07 +0900</pubDate>
+      <pubDate>Fri, 21 Mar 2025 19:25:39 +0900</pubDate>
       <guid>http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris/</guid>
-      <description>&lt;h1 id=&#34;ノートルダムドパリの翻訳と解説&#34;&gt;ノートルダム・ド・パリの翻訳と解説&lt;/h1&gt;&#xA;&lt;p&gt;このページは、Hugoのクイックスタートガイドのテーマ、Anankeのサンプルページに引用されていたヴィクトル・ユゴーの小説『ノートルダム・ド・パリ』を章ごとにGeminiで日本語翻訳を行い、分かりづらい用語や言い回しについてGeminiに脚注解説を追加させたものです。&lt;/p&gt;&#xA;&lt;h2 id=&#34;目次&#34;&gt;目次&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris1/&#34;&gt;第一章　大広間&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris2/&#34;&gt;第二章　ピエール・グランゴワール&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris3/&#34;&gt;第三章　枢機卿閣下&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris4/&#34;&gt;第四章　ジャック・コップノールの旦那&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris5/&#34;&gt;第五章　カジモド&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris6/&#34;&gt;第六章　エスメラルダ&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+      <description>&lt;p&gt;このページは、Hugoのクイックスタートガイドのテーマ、Anankeのサンプルページに引用されていたヴィクトル・ユゴーの小説『ノートルダム・ド・パリ』を章ごとにGeminiで日本語翻訳を行い、分かりづらい用語や言い回しについてGeminiに脚注解説を追記させたものです。&lt;/p&gt;&#xA;&lt;h2 id=&#34;目次&#34;&gt;目次&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris1/&#34;&gt;第一章　大広間&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris2/&#34;&gt;第二章　ピエール・グランゴワール&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris3/&#34;&gt;第三章　枢機卿閣下&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris4/&#34;&gt;第四章　ジャック・コップノールの旦那&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris5/&#34;&gt;第五章　カジモド&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris6/&#34;&gt;第六章　エスメラルダ&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
     <item>
       <title>第一章　大広間</title>
       <link>http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris1/</link>
       <pubDate>Fri, 21 Mar 2025 02:29:17 +0900</pubDate>
       <guid>http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris1/</guid>
-      <description>&lt;h1 id=&#34;第一章大広間&#34;&gt;第一章　大広間&lt;/h1&gt;&#xA;&lt;p&gt;今から遡ること三百四十八年と六ヶ月と十九日前、パリの市民たちは、市、大学、そして町の三重の境界線に響き渡る、すべての鐘の盛大な音色に目を覚ました。&lt;/p&gt;</description>
+      <description>&lt;p&gt;今から遡ること三百四十八年と六ヶ月と十九日前、パリの市民たちは、市、大学、そして町の三重の境界線に響き渡る、すべての鐘の盛大な音色に目を覚ました。&lt;/p&gt;</description>
     </item>
     <item>
       <title>第二章　ピエール・グランゴワール</title>
       <link>http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris2/</link>
       <pubDate>Fri, 21 Mar 2025 02:29:09 +0900</pubDate>
       <guid>http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris2/</guid>
-      <description>&lt;h1 id=&#34;第二章ピエールグランゴワール&#34;&gt;第二章　ピエール・グランゴワール&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h1&gt;&#xA;&lt;p&gt;しかしながら、彼が滔々と弁舌を振るうにつれ、その衣装に寄せられた満悦と賞賛は、彼の言葉によって霧散し、そして彼が「枢機卿閣下のご到着次第、直ちに開始いたします」という不運な結論に達した時、彼の声は怒号の嵐に掻き消された。&lt;/p&gt;&#xA;&lt;p&gt;「今すぐ始めろ！　神秘劇を！　直ちに神秘劇を！」と、民衆は叫び立てた。そして、あらゆる声の上に、ヨハネス・デ・モレンディーノの声が、嘲笑の笛のように騒乱を貫いて響き渡った。「今すぐ始めろ！」と、その学徒は喚き散らした。&lt;/p&gt;</description>
+      <description>&lt;p&gt;しかしながら、彼が滔々と弁舌を振るうにつれ、その衣装に寄せられた満悦と賞賛は、彼の言葉によって霧散し、そして彼が「枢機卿閣下のご到着次第、直ちに開始いたします」という不運な結論に達した時、彼の声は怒号の嵐に掻き消された。&lt;/p&gt;&#xA;&lt;p&gt;「今すぐ始めろ！　神秘劇を！　直ちに神秘劇を！」と、民衆は叫び立てた。そして、あらゆる声の上に、ヨハネス・デ・モレンディーノの声が、嘲笑の笛のように騒乱を貫いて響き渡った。「今すぐ始めろ！」と、その学徒は喚き散らした。&lt;/p&gt;&#xA;&lt;p&gt;「ユピテルとブルボン枢機卿を打ち倒せ！」と、ロバン・プースパンと、窓辺に陣取った他の書記たちは、声を張り上げた。&lt;/p&gt;&#xA;&lt;p&gt;「今すぐ道徳劇を！」と、群衆は繰り返した。「今すぐだ！　役者どもと枢機卿には袋と縄を！」&lt;/p&gt;&#xA;&lt;p&gt;哀れなユピテルは、憔悴し、怯え、その紅の下に青ざめ、雷霆を落とし、帽子を手に取った。&lt;/p&gt;</description>
     </item>
     <item>
       <title>第三章　枢機卿閣下</title>
       <link>http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris3/</link>
       <pubDate>Fri, 21 Mar 2025 02:29:01 +0900</pubDate>
       <guid>http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris3/</guid>
-      <description>&lt;h1 id=&#34;第三章枢機卿閣下&#34;&gt;第三章　枢機卿閣下&lt;/h1&gt;&#xA;&lt;p&gt;哀れなるグランゴワールよ！聖ジャン祭のけたたましい爆音、支柱に据えられた二十挺のアーケバスの連射、1465年9月26日、パリ包囲戦の際、ビリー塔のあの悪名高き大蛇型火薬兵器が、一撃に七人のブルゴーニュ兵を葬り去ったあの大爆発、テンプル門に貯蔵された火薬の総量が爆発したとしても、あの厳粛にして劇的な瞬間に、執事の口から零れ落ちた数少ない言葉、「枢機卿閣下、ブルボン公枢機卿殿」ほど、彼の耳を苛立たせることはなかったであろう。&lt;/p&gt;</description>
+      <description>&lt;p&gt;哀れなるグランゴワールよ！聖ジャン祭のけたたましい爆音、支柱に据えられた二十挺のアーケバスの連射、1465年9月26日、パリ包囲戦の際、ビリー塔のあの悪名高き大蛇型火薬兵器が、一撃に七人のブルゴーニュ兵を葬り去ったあの大爆発、テンプル門に貯蔵された火薬の総量が爆発したとしても、あの厳粛にして劇的な瞬間に、執事の口から零れ落ちた数少ない言葉、「枢機卿閣下、ブルボン公枢機卿殿」ほど、彼の耳を苛立たせることはなかったであろう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>第四章　ジャック・コップノールの旦那</title>
       <link>http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris4/</link>
       <pubDate>Fri, 21 Mar 2025 02:28:48 +0900</pubDate>
       <guid>http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris4/</guid>
-      <description>&lt;h1 id=&#34;第四章ジャックコップノールの旦那&#34;&gt;第四章　ジャック・コップノールの旦那&lt;/h1&gt;&#xA;&lt;p&gt;ヘントの年金受給者と枢機卿閣下が、深々と頭を下げ、さらに低い声で二言三言言葉を交わしている間、大柄で、大きな顔と広い肩幅を持つ男が、ギヨーム・リム&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;と肩を並べて入場しようと現れた。その姿は、まるで狐の傍らに立つブルドッグのようであった。彼のフェルトのダブレットと革のチョッキは、彼を取り巻くビロードと絹の中に異彩を放っていた。彼を紛れ込んだ召使いか何かと見なしたのか、案内係は彼を制止した。&lt;/p&gt;</description>
+      <description>&lt;p&gt;ヘントの年金受給者と枢機卿閣下が、深々と頭を下げ、さらに低い声で二言三言言葉を交わしている間、大柄で、大きな顔と広い肩幅を持つ男が、ギヨーム・リム&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;と肩を並べて入場しようと現れた。その姿は、まるで狐の傍らに立つブルドッグのようであった。彼のフェルトのダブレットと革のチョッキは、彼を取り巻くビロードと絹の中に異彩を放っていた。彼を紛れ込んだ召使いか何かと見なしたのか、案内係は彼を制止した。&lt;/p&gt;&#xA;&lt;p&gt;「止まれ、そこの者、通すわけにはいかぬ！」&lt;/p&gt;</description>
     </item>
     <item>
       <title>第五章　カジモド</title>
       <link>http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris5/</link>
       <pubDate>Fri, 21 Mar 2025 02:28:28 +0900</pubDate>
       <guid>http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris5/</guid>
-      <description>&lt;h1 id=&#34;第五章カジモド&#34;&gt;第五章　カジモド&lt;/h1&gt;&#xA;&lt;p&gt;瞬く間に、コップノールの発案を実行に移す準備が整った。ブルジョワ、学者、そして法務官たちが一斉に動き出した。大理石のテーブルの向かいに位置する小さな礼拝堂が、醜怪顔選手権&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;の舞台として選ばれた。扉の上の美しいバラ窓に開いた一つの石の輪が、競技者たちが顔を突き出すための円として定められた。そこへ到達するには、どこからともなく運び込まれた二つの大樽を、ある方法で積み重ねるだけでよかった。候補者たちは、男であろうと女であろうと（女性の道化王が選ばれる可能性もあったのだ）、その醜怪な表情を鮮明かつ完璧な印象として残すために、顔を覆い、登場の瞬間まで礼拝堂の中に隠れていることになった。たちまちのうちに、礼拝堂は候補者たちで埋め尽くされ、扉は固く閉ざされた。&lt;/p&gt;</description>
+      <description>&lt;p&gt;瞬く間に、コップノールの発案を実行に移す準備が整った。ブルジョワ、学者、そして法務官たちが一斉に動き出した。大理石のテーブルの向かいに位置する小さな礼拝堂が、醜怪顔選手権&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;の舞台として選ばれた。扉の上の美しいバラ窓に開いた一つの石の輪が、競技者たちが顔を突き出すための円として定められた。そこへ到達するには、どこからともなく運び込まれた二つの大樽を、ある方法で積み重ねるだけでよかった。候補者たちは、男であろうと女であろうと（女性の道化王が選ばれる可能性もあったのだ）、その醜怪な表情を鮮明かつ完璧な印象として残すために、顔を覆い、登場の瞬間まで礼拝堂の中に隠れていることになった。たちまちのうちに、礼拝堂は候補者たちで埋め尽くされ、扉は固く閉ざされた。&lt;/p&gt;</description>
     </item>
     <item>
       <title>第六章　エスメラルダ</title>
       <link>http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris6/</link>
       <pubDate>Fri, 21 Mar 2025 02:28:18 +0900</pubDate>
       <guid>http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris6/</guid>
-      <description>&lt;h1 id=&#34;第六章エスメラルダ&#34;&gt;第六章　エスメラルダ&lt;/h1&gt;&#xA;&lt;p&gt;読者諸君に喜ばしいお知らせを申し上げよう。この一連の騒動の最中、グレングワールとその劇は、揺るぎなく持ちこたえていたのである。彼の役者たちは、彼に鼓舞され、彼の喜劇を滔々と語り続け、彼自身もまた、それを聞き続けていた。彼は騒乱をものともせず、最後までやり遂げる決意を固めていた。そして、観衆の注意が再び自分たちに向くという希望を捨ててはいなかった。この希望の灯火は、カジモド、コップノール、そして道化の教皇の耳をつんざくような一行が、大騒ぎの中、大広間を後にするのを見たとき、新たな輝きを増した。群衆は彼らを追いかけるように、我先にと押し寄せた。「よし」と彼は心の中で呟いた。「これで厄介者どもは皆いなくなった。」　しかし、不幸なことに、その厄介者どもこそが、観衆のすべてだったのである。瞬く間に、大広間は空っぽになった。&lt;/p&gt;</description>
+      <description>&lt;p&gt;読者諸君に喜ばしいお知らせを申し上げよう。この一連の騒動の最中、グレングワールとその劇は、揺るぎなく持ちこたえていたのである。彼の役者たちは、彼に鼓舞され、彼の喜劇を滔々と語り続け、彼自身もまた、それを聞き続けていた。彼は騒乱をものともせず、最後までやり遂げる決意を固めていた。そして、観衆の注意が再び自分たちに向くという希望を捨ててはいなかった。この希望の灯火は、カジモド、コップノール、そして道化の教皇の耳をつんざくような一行が、大騒ぎの中、大広間を後にするのを見たとき、新たな輝きを増した。群衆は彼らを追いかけるように、我先にと押し寄せた。「よし」と彼は心の中で呟いた。「これで厄介者どもは皆いなくなった。」　しかし、不幸なことに、その厄介者どもこそが、観衆のすべてだったのである。瞬く間に、大広間は空っぽになった。&lt;/p&gt;</description>
     </item>
     <item>
       <title>メデューサ、メーティス、アテナ：神話の迷宮における関係性の解読</title>

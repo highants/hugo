@@ -1,20 +1,19 @@
 ---
 title: 第一章　大広間
 date: 2025-03-21 02:29:17 +0900
-lastmod: 2025-03-21 02:29:18 +0900
-description: Hugoのanankeテーマ：コンテンツサンプルのノートルダム・ド・パリから引用のチャプター１
+lastmod: 2025-03-21 18:53:30 +0900
+description: Hugoのanankeテーマ：コンテンツサンプルのノートルダム・ド・パリから引用の第一章
+featured_image: null
 tags:
     - ノートルダム・ド・パリ
     - ヴィクトル・ユゴー
     - アナンケー
 categories:
-    - 文書翻訳
     - Gemini解説
-fmContentType: memo
+    - 翻訳
 draft: false
+editor: highants
 ---
-
-# 第一章　大広間
 
 今から遡ること三百四十八年と六ヶ月と十九日前、パリの市民たちは、市、大学、そして町の三重の境界線に響き渡る、すべての鐘の盛大な音色に目を覚ました。
 <!--more-->

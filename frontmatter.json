@@ -74,9 +74,56 @@
           "type": "string"
         },
         {
-          "title": "preview",
-          "name": "preview",
+          "title": "draft",
+          "name": "draft",
+          "type": "draft"
+        }
+      ]
+    },
+    {
+      "name": "memo",
+      "pageBundle": false,
+      "previewPath": null,
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
           "type": "string"
+        },
+        {
+          "title": "Pub date",
+          "name": "date",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true,
+          "dateFormat": "yy-MM-dd HH:mm:ss"
+        },
+        {
+          "title": "lastmod",
+          "name": "lastmod",
+          "type": "datetime",
+          "isModifiedDate": true,
+          "dateFormat": "yy-MM-dd HH:mm:ss"
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "Content preview",
+          "name": "preview",
+          "type": "image"
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "Categories",
+          "name": "categories",
+          "type": "categories"
         },
         {
           "title": "fmContentType",
@@ -84,7 +131,7 @@
           "type": "string"
         },
         {
-          "title": "draft",
+          "title": "Is in draft",
           "name": "draft",
           "type": "draft"
         }

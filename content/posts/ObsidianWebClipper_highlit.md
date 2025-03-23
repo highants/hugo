@@ -1,9 +1,9 @@
 ---
 title: Obsidian Web Clipperのハイライトクリッピング
 date: 2025-03-23 15:43:35 +0900
-lastmod: 2025-03-23 16:31:09 +0900
+lastmod: 2025-03-23 16:36:11 +0900
 description: Obsidian Web Clipperのハイライトクリッピングモードの使い方
-featured_image: null
+featured_image: /images/ObsidianWebClipper.png
 tags:
   - Obsidian
   - 使い方

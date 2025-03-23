@@ -49,8 +49,8 @@
 
   <meta itemprop="name" content="名前はまだない">
   <meta itemprop="description" content="とりまAIによる生成解説">
-  <meta itemprop="datePublished" content="2025-03-21T19:25:39+09:00">
-  <meta itemprop="dateModified" content="2025-03-21T19:26:49+09:00">
+  <meta itemprop="datePublished" content="2025-03-23T15:43:35+09:00">
+  <meta itemprop="dateModified" content="2025-03-23T16:25:15+09:00">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="名前はまだない">
   <meta name="twitter:description" content="とりまAIによる生成解説">
@@ -143,6 +143,96 @@
 
       <section class="w-100 mw8">
         
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+          
+        <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+          <a href="/posts/obsidianwebclipper_highlit/" class="db grow">
+            <img src="http://localhost:1313/images/island.jpg" class="img" alt="image from Obsidian Web Clipperのハイライトクリッピング">
+          </a>
+        </div>
+      
+      <div class="blah w-100 w-60-ns pl3-ns">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="/posts/obsidianwebclipper_highlit/" class="color-inherit dim link">
+            Obsidian Web Clipperのハイライトクリッピング
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          <h2 id="obsidian-web-clipperのハイライトクリッピングモード">Obsidian Web Clipperのハイライトクリッピングモード</h2>
+<p>Obsidian Web Clipperのハイライトクリッピング機能の使い方が個人的にわかりづらかったので、使い方の解説を残しておきます。</p>
+<h2 id="1-obsidian-web-clipperのヘルプを確認">1. Obsidian Web Clipperのヘルプを確認</h2>
+<ol>
+<li>
+<p>Obsidian Web Clipperの設定を開く</p>
+</li>
+<li>
+<p>一般設定にあるヘルプを開く</p>
+</li>
+<li>
+<p>開いたページで<a href="https://help.obsidian.md/web-clipper/highlight">Highlight web pages - Obsidian Help</a>を選択して開く</p>
+</li>
+</ol>
+<p>こちらのページにObsidian Web Clipperでのハイライトモードの使い方が解説されています。</p>
+<blockquote>
+<p>You can add highlights directly to your template using the <code>{{highlights}}</code> variable, for example:</p>
+<p>訳：<code>{{highlights}}</code>変数を使用して、テンプレートに直接ハイライトを追加できます。</p></blockquote>
+<p>と記載されているように、Obsidian Web Clipperのデフォルトテンプレートでは、ノートの内容に{{content}}が予め設定されているので、<strong>ハイライトクリッピング機能はデフォルトでは使えない状態</strong>になっています。</p>
+<h2 id="2-ハイライトクリッピング用テンプレートを作成する">2. ハイライトクリッピング用テンプレートを作成する</h2>
+<blockquote>
+<p>今回紹介する方法では以下のようなテンプレートを作成します。</p>
+<ul>
+<li>デフォルトテンプレートのプロパティ設定をそのまま継承</li>
+<li>ページコンテンツをまるごと切り抜くのはやめて、ハイライトした部分のみを切り抜く</li>
+</ul>
+<p>ご自身の使い方に合わせて適宜設定を行ってください。</p></blockquote>
+<ol>
+<li>
+<p>Obsidian Web Clipperの左サイドメニューにあるデフォルトテンプレートクリックして、画面右上にある、その他＞複製をクリックします。</p>
+</li>
+<li>
+<p>デフォルト２テンプレートが作成されます。</p>
+</li>
+<li>
+<p>サイドメニューに追加されたデフォルト２をクリックして、ノートの内容に入力されている{{content}}を消去します。</p>
+</li>
+<li>
+<p>ノートの内容に先程のヘルプページに最下部にあるこちらの変数をコピーしてノートの内容に貼り付けます。</p>
+</li>
+</ol>
+<pre tabindex="0"><code>{{highlights|map: item =&gt; item.text|join:&#34;\n\n&#34;}}
+</code></pre><p>こちらはハイライトしたアイテムの配置関係を維持したまま、一段行間を開けながら追加していく変数になっています。</p>
+<p>これでハイライトクリッピングモードを使用する準備が整いました！</p>
+<h2 id="3-ハイライトクリッピングモードを使用する">3. ハイライトクリッピングモードを使用する</h2>
+<ol>
+<li>
+<p>Obsidian Web Clipperの拡張を開いて、右上にあるマーカー絵柄のボタンをクリックするとハイライトモードに切り替わります。</p>
+</li>
+<li>
+<p>カーソルを移動させながら黄色い波線に囲まれて表示される部分をクリックしていくと、ハイライトした箇所がノートに追加されていきます。</p>
+<ul>
+<li>ウェブサイトに自分用のハイライトマーカーを書き残しておけるのが本来のハイライトモードです。ハイライトは🗑️ボタンで消去しない限り、拡張機能に保存された状態になります。</li>
+</ul>
+</li>
+<li>
+<p>画面上部に表示されている”Clip highlights”という紫色のボタンを押すと、ノートにハイライトされた内容がコピーされます。</p>
+</li>
+<li>
+<p>再度拡張機能を開いて、最下部の”Obsidianに追加”ボタンを押すと、Web Clipperで作成した新しいページがObsidianに作成されます。</p>
+        </div>
+        
+          <p class="f6 lh-copy mv0">By highants</p><a href="/posts/obsidianwebclipper_highlit/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
         
           <div class="relative w-100 mb4">
             
@@ -253,37 +343,18 @@
 
           </div>
         
-          <div class="relative w-100 mb4">
-            
-<article class="bb b--black-10">
-  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
-    <div class="flex flex-column flex-row-ns">
-      
-      <div class="blah w-100">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/posts/notre-dame_de_paris/notre-dame_de_paris4/" class="color-inherit dim link">
-            第四章　ジャック・コップノールの旦那
-            </a>
-        </h1>
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          <p>ヘントの年金受給者と枢機卿閣下が、深々と頭を下げ、さらに低い声で二言三言言葉を交わしている間、大柄で、大きな顔と広い肩幅を持つ男が、ギヨーム・リム<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>と肩を並べて入場しようと現れた。その姿は、まるで狐の傍らに立つブルドッグのようであった。彼のフェルトのダブレットと革のチョッキは、彼を取り巻くビロードと絹の中に異彩を放っていた。彼を紛れ込んだ召使いか何かと見なしたのか、案内係は彼を制止した。</p>
-<p>「止まれ、そこの者、通すわけにはいかぬ！」</p>
-        </div>
-        
-          <p class="f6 lh-copy mv0">By Gemini 2.0</p><a href="/posts/notre-dame_de_paris/notre-dame_de_paris4/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-      </div>
-    </div>
-  </div>
-</article>
-
-          </div>
-        
       </section>
 
       
         <section class="w-100">
           <h1 class="f3">More</h1>
           
+          
+            <h2 class="f5 fw4 mb4 dib mr3">
+              <a href="/posts/notre-dame_de_paris/notre-dame_de_paris4/" class="link black dim">
+                第四章　ジャック・コップノールの旦那
+              </a>
+            </h2>
           
             <h2 class="f5 fw4 mb4 dib mr3">
               <a href="/posts/notre-dame_de_paris/notre-dame_de_paris5/" class="link black dim">
@@ -300,12 +371,6 @@
             <h2 class="f5 fw4 mb4 dib mr3">
               <a href="/posts/greece_gods/medusa-metis-athena/" class="link black dim">
                 メデューサ、メーティス、アテナ：神話の迷宮における関係性の解読
-              </a>
-            </h2>
-          
-            <h2 class="f5 fw4 mb4 dib mr3">
-              <a href="/posts/greece_gods/apollon_deep/" class="link black dim">
-                アポロンの知られざる側面：地域ごとの信仰、神話、役割、象徴、他文化との関わり
               </a>
             </h2>
           

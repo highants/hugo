@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ja-jp">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Obsidian Web Clipperのハイライトクリッピング | 名前はまだない</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Obsidian Web Clipperのハイライトクリッピングモードの使い方">
+    <meta name="generator" content="Hugo 0.145.0">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    <meta name="author" content="highants">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+
+    
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/posts/obsidianwebclipper_highlit/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/posts/obsidianwebclipper_highlit/">
+  <meta property="og:site_name" content="名前はまだない">
+  <meta property="og:title" content="Obsidian Web Clipperのハイライトクリッピング">
+  <meta property="og:description" content="Obsidian Web Clipperのハイライトクリッピングモードの使い方">
+  <meta property="og:locale" content="ja_jp">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-03-23T15:43:35+09:00">
+    <meta property="article:modified_time" content="2025-03-23T16:25:15+09:00">
+    <meta property="article:tag" content="Obsidian">
+    <meta property="article:tag" content="使い方">
+    <meta property="article:tag" content="ObsidianWebClipper">
+
+  <meta itemprop="name" content="Obsidian Web Clipperのハイライトクリッピング">
+  <meta itemprop="description" content="Obsidian Web Clipperのハイライトクリッピングモードの使い方">
+  <meta itemprop="datePublished" content="2025-03-23T15:43:35+09:00">
+  <meta itemprop="dateModified" content="2025-03-23T16:25:15+09:00">
+  <meta itemprop="wordCount" content="85">
+  <meta itemprop="keywords" content="Obsidian,使い方,ObsidianWebClipper">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Obsidian Web Clipperのハイライトクリッピング">
+  <meta name="twitter:description" content="Obsidian Web Clipperのハイライトクリッピングモードの使い方">
+
+	
+  </head><body class="ma0 avenir bg-near-white development">
+
+    
+   
+  
+
+  
+  
+  
+  <header class="cover bg-center" style="background-image: url('http://localhost:1313/images/island.jpg');">
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        名前はまだない
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/about/" title="ご紹介 page">
+              ご紹介
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/catalog/" title="コンテンツカタログ page">
+              コンテンツカタログ
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/posts/" title="投稿履歴 page">
+              投稿履歴
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"><a href="https://bsky.app/profile/highants" target="_blank" rel="noopener"
+        class="ananke-social-link link-transition bluesky link dib z-999 pt3 pt0-l mr1"
+        title="follow on Bluesky - Opens in a new window"
+        aria-label="follow on Bluesky - Opens in a new window">
+      <span class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M407.8 294.7c-3.3-.4-6.7-.8-10-1.3c3.4 .4 6.7 .9 10 1.3zM288 227.1C261.9 176.4 190.9 81.9 124.9 35.3C61.6-9.4 37.5-1.7 21.6 5.5C3.3 13.8 0 41.9 0 58.4S9.1 194 15 213.9c19.5 65.7 89.1 87.9 153.2 80.7c3.3-.5 6.6-.9 10-1.4c-3.3 .5-6.6 1-10 1.4C74.3 308.6-9.1 342.8 100.3 464.5C220.6 589.1 265.1 437.8 288 361.1c22.9 76.7 49.2 222.5 185.6 103.4c102.4-103.4 28.1-156-65.8-169.9c-3.3-.4-6.7-.8-10-1.3c3.4 .4 6.7 .9 10 1.3c64.1 7.1 133.6-15.1 153.2-80.7C566.9 194 576 75 576 58.4s-3.3-44.7-21.6-52.9c-15.8-7.1-40-14.9-103.2 29.8C385.1 81.9 314.1 176.4 288 227.1z"/></svg>
+            
+          </span></a></div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">Obsidian Web Clipperのハイライトクリッピング</div>
+          
+            <div class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
+              Obsidian Web Clipperのハイライトクリッピングモードの使い方
+            </div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        投稿履歴
+      </aside><div id="sharing" class="mt3 ananke-socials"><a href="https://bsky.app/intent/compose?&amp;text=http%3A%2F%2Flocalhost%3A1313%2Fposts%2Fobsidianwebclipper_highlit%2F"
+        class="ananke-social-link bluesky no-underline"
+        title="Share on Bluesky" aria-label="Share on Bluesky"
+        target="_blank" rel="nofollow noopener noreferrer">
+        <span class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M407.8 294.7c-3.3-.4-6.7-.8-10-1.3c3.4 .4 6.7 .9 10 1.3zM288 227.1C261.9 176.4 190.9 81.9 124.9 35.3C61.6-9.4 37.5-1.7 21.6 5.5C3.3 13.8 0 41.9 0 58.4S9.1 194 15 213.9c19.5 65.7 89.1 87.9 153.2 80.7c3.3-.5 6.6-.9 10-1.4c-3.3 .5-6.6 1-10 1.4C74.3 308.6-9.1 342.8 100.3 464.5C220.6 589.1 265.1 437.8 288 361.1c22.9 76.7 49.2 222.5 185.6 103.4c102.4-103.4 28.1-156-65.8-169.9c-3.3-.4-6.7-.8-10-1.3c3.4 .4 6.7 .9 10 1.3c64.1 7.1 133.6-15.1 153.2-80.7C566.9 194 576 75 576 58.4s-3.3-44.7-21.6-52.9c-15.8-7.1-40-14.9-103.2 29.8C385.1 81.9 314.1 176.4 288 227.1z"/></svg>
+                
+              </span></a></div>
+<h1 class="f1 athelas mt3 mb1">Obsidian Web Clipperのハイライトクリッピング</h1>
+      
+      <p class="tracked"><strong>highants</strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2025-03-23T15:43:35z">
+        <p><b>作成日時:</b> 2025-03-23 (Sun) 15:43</p>
+        <p><b>最終編集:</b> 2025-03-23 (Sun) 16:25</p>
+      </time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links black pr4-l w-two-thirds-l"><ul class="pa0">
+  
+   <li class="list di">
+     <a href="/tags/obsidian/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Obsidian</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/%E4%BD%BF%E3%81%84%E6%96%B9/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">使い方</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/obsidianwebclipper/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">ObsidianWebClipper</a>
+   </li>
+  
+</ul>
+<h2 id="obsidian-web-clipperのハイライトクリッピングモード">Obsidian Web Clipperのハイライトクリッピングモード</h2>
+<p>Obsidian Web Clipperのハイライトクリッピング機能の使い方が個人的にわかりづらかったので、使い方の解説を残しておきます。</p>
+<h2 id="1-obsidian-web-clipperのヘルプを確認">1. Obsidian Web Clipperのヘルプを確認</h2>
+<ol>
+<li>
+<p>Obsidian Web Clipperの設定を開く</p>
+</li>
+<li>
+<p>一般設定にあるヘルプを開く</p>
+</li>
+<li>
+<p>開いたページで<a href="https://help.obsidian.md/web-clipper/highlight">Highlight web pages - Obsidian Help</a>を選択して開く</p>
+</li>
+</ol>
+<p>こちらのページにObsidian Web Clipperでのハイライトモードの使い方が解説されています。</p>
+<blockquote>
+<p>You can add highlights directly to your template using the <code>{{highlights}}</code> variable, for example:</p>
+<p>訳：<code>{{highlights}}</code>変数を使用して、テンプレートに直接ハイライトを追加できます。</p></blockquote>
+<p>と記載されているように、Obsidian Web Clipperのデフォルトテンプレートでは、ノートの内容に{{content}}が予め設定されているので、<strong>ハイライトクリッピング機能はデフォルトでは使えない状態</strong>になっています。</p>
+<h2 id="2-ハイライトクリッピング用テンプレートを作成する">2. ハイライトクリッピング用テンプレートを作成する</h2>
+<blockquote>
+<p>今回紹介する方法では以下のようなテンプレートを作成します。</p>
+<ul>
+<li>デフォルトテンプレートのプロパティ設定をそのまま継承</li>
+<li>ページコンテンツをまるごと切り抜くのはやめて、ハイライトした部分のみを切り抜く</li>
+</ul>
+<p>ご自身の使い方に合わせて適宜設定を行ってください。</p></blockquote>
+<ol>
+<li>
+<p>Obsidian Web Clipperの左サイドメニューにあるデフォルトテンプレートクリックして、画面右上にある、その他＞複製をクリックします。</p>
+</li>
+<li>
+<p>デフォルト２テンプレートが作成されます。</p>
+</li>
+<li>
+<p>サイドメニューに追加されたデフォルト２をクリックして、ノートの内容に入力されている{{content}}を消去します。</p>
+</li>
+<li>
+<p>ノートの内容に先程のヘルプページに最下部にあるこちらの変数をコピーしてノートの内容に貼り付けます。</p>
+</li>
+</ol>
+<pre tabindex="0"><code>{{highlights|map: item =&gt; item.text|join:&#34;\n\n&#34;}}
+</code></pre><p>こちらはハイライトしたアイテムの配置関係を維持したまま、一段行間を開けながら追加していく変数になっています。</p>
+<p>これでハイライトクリッピングモードを使用する準備が整いました！</p>
+<h2 id="3-ハイライトクリッピングモードを使用する">3. ハイライトクリッピングモードを使用する</h2>
+<ol>
+<li>
+<p>Obsidian Web Clipperの拡張を開いて、右上にあるマーカー絵柄のボタンをクリックするとハイライトモードに切り替わります。</p>
+</li>
+<li>
+<p>カーソルを移動させながら黄色い波線に囲まれて表示される部分をクリックしていくと、ハイライトした箇所がノートに追加されていきます。</p>
+<ul>
+<li>ウェブサイトに自分用のハイライトマーカーを書き残しておけるのが本来のハイライトモードです。ハイライトは🗑️ボタンで消去しない限り、拡張機能に保存された状態になります。</li>
+</ul>
+</li>
+<li>
+<p>画面上部に表示されている”Clip highlights”という紫色のボタンを押すと、ノートにハイライトされた内容がコピーされます。</p>
+</li>
+<li>
+<p>再度拡張機能を開いて、最下部の”Obsidianに追加”ボタンを押すと、Web Clipperで作成した新しいページがObsidianに作成されます。</p>
+</li>
+</ol>
+<h2 id="4-便利な使い方">4. 便利な使い方</h2>
+<h3 id="ハイライトの方法">ハイライトの方法</h3>
+<p>ハイライトにはいくつかやり方があります。</p>
+<ul>
+<li>
+<p><strong>黄色の波線で囲まれた範囲を左クリック</strong></p>
+</li>
+<li>
+<p><strong>黄色の波線で囲まれた範囲を右クリックやミドルクリックでも可能</strong></p>
+</li>
+<li>
+<p><strong>カーソルをドラッグして直接範囲指定して選択</strong></p>
+</li>
+</ul>
+<p>BlueskyやXなど、連続投稿がスレッドに表示されるようなサービスでは、他のポストをクリックしてしまうとページが移動してしまいます。その場合は<strong>Ctrlを押しながらクリック</strong>することで、そのままページを移動せずにスレッド内に表示されているコンテンツを選択することができます。
+Ctrl+クリックでもページが移動する場合もあるので、その際は他のハイライト方法をおすすめします。</p>
+<h3 id="サイドパネル">サイドパネル</h3>
+<p>拡張機能からハイライトモードを起動して、パネルの外をクリックすると拡張機能パネルが消えてしまうので、<strong>ブラウザ画面を右クリック＞Obsidian Web Clipper＞Open side panel</strong>、もしくは<strong>拡張機能アイコンを右クリック＞サイドバーで開く</strong>からサイドパネルを開くと、入力内容を確認しながら作業しやすくなると思います。</p>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/" >
+    &copy;  名前はまだない 2025 
+  </a>
+    <div><div class="ananke-socials"><a href="https://bsky.app/profile/highants" target="_blank" rel="noopener"
+        class="ananke-social-link link-transition bluesky link dib z-999 pt3 pt0-l mr1"
+        title="follow on Bluesky - Opens in a new window"
+        aria-label="follow on Bluesky - Opens in a new window">
+      <span class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M407.8 294.7c-3.3-.4-6.7-.8-10-1.3c3.4 .4 6.7 .9 10 1.3zM288 227.1C261.9 176.4 190.9 81.9 124.9 35.3C61.6-9.4 37.5-1.7 21.6 5.5C3.3 13.8 0 41.9 0 58.4S9.1 194 15 213.9c19.5 65.7 89.1 87.9 153.2 80.7c3.3-.5 6.6-.9 10-1.4c-3.3 .5-6.6 1-10 1.4C74.3 308.6-9.1 342.8 100.3 464.5C220.6 589.1 265.1 437.8 288 361.1c22.9 76.7 49.2 222.5 185.6 103.4c102.4-103.4 28.1-156-65.8-169.9c-3.3-.4-6.7-.8-10-1.3c3.4 .4 6.7 .9 10 1.3c64.1 7.1 133.6-15.1 153.2-80.7C566.9 194 576 75 576 58.4s-3.3-44.7-21.6-52.9c-15.8-7.1-40-14.9-103.2 29.8C385.1 81.9 314.1 176.4 288 227.1z"/></svg>
+            
+          </span></a></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

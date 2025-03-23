@@ -49,8 +49,8 @@
 
   <meta itemprop="name" content="Categories">
   <meta itemprop="description" content="The last theme you&#39;ll ever need. Maybe.">
-  <meta itemprop="datePublished" content="2025-03-21T19:12:29+09:00">
-  <meta itemprop="dateModified" content="2025-03-21T19:12:30+09:00">
+  <meta itemprop="datePublished" content="2025-03-23T15:43:35+09:00">
+  <meta itemprop="dateModified" content="2025-03-23T16:25:15+09:00">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Categories">
   <meta name="twitter:description" content="The last theme you&#39;ll ever need. Maybe.">
@@ -79,14 +79,14 @@
         <ul class="pl0 mr3">
           
           <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="/about/" title="このサイトについて page">
-              このサイトについて
+            <a class="hover-white no-underline white-90" href="/about/" title="ご紹介 page">
+              ご紹介
             </a>
           </li>
           
           <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="/catalog/" title="カタログ page">
-              カタログ
+            <a class="hover-white no-underline white-90" href="/catalog/" title="コンテンツカタログ page">
+              コンテンツカタログ
             </a>
           </li>
           
@@ -133,10 +133,117 @@
     <section class="ph4">
       
         <h2 class="f1">
+          <a href="/categories/%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB/" class="link blue hover-black">
+            Category: マニュアル
+          </a>
+        </h2>
+        
+          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">投稿履歴</span>
+    <h1 class="f3 near-black">
+      <a href="/posts/obsidianwebclipper_highlit/" class="link black dim">
+        Obsidian Web Clipperのハイライトクリッピング
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <h2 id="obsidian-web-clipperのハイライトクリッピングモード">Obsidian Web Clipperのハイライトクリッピングモード</h2>
+<p>Obsidian Web Clipperのハイライトクリッピング機能の使い方が個人的にわかりづらかったので、使い方の解説を残しておきます。</p>
+<h2 id="1-obsidian-web-clipperのヘルプを確認">1. Obsidian Web Clipperのヘルプを確認</h2>
+<ol>
+<li>
+<p>Obsidian Web Clipperの設定を開く</p>
+</li>
+<li>
+<p>一般設定にあるヘルプを開く</p>
+</li>
+<li>
+<p>開いたページで<a href="https://help.obsidian.md/web-clipper/highlight">Highlight web pages - Obsidian Help</a>を選択して開く</p>
+</li>
+</ol>
+<p>こちらのページにObsidian Web Clipperでのハイライトモードの使い方が解説されています。</p>
+<blockquote>
+<p>You can add highlights directly to your template using the <code>{{highlights}}</code> variable, for example:</p>
+<p>訳：<code>{{highlights}}</code>変数を使用して、テンプレートに直接ハイライトを追加できます。</p></blockquote>
+<p>と記載されているように、Obsidian Web Clipperのデフォルトテンプレートでは、ノートの内容に{{content}}が予め設定されているので、<strong>ハイライトクリッピング機能はデフォルトでは使えない状態</strong>になっています。</p>
+<h2 id="2-ハイライトクリッピング用テンプレートを作成する">2. ハイライトクリッピング用テンプレートを作成する</h2>
+<blockquote>
+<p>今回紹介する方法では以下のようなテンプレートを作成します。</p>
+<ul>
+<li>デフォルトテンプレートのプロパティ設定をそのまま継承</li>
+<li>ページコンテンツをまるごと切り抜くのはやめて、ハイライトした部分のみを切り抜く</li>
+</ul>
+<p>ご自身の使い方に合わせて適宜設定を行ってください。</p></blockquote>
+<ol>
+<li>
+<p>Obsidian Web Clipperの左サイドメニューにあるデフォルトテンプレートクリックして、画面右上にある、その他＞複製をクリックします。</p>
+</li>
+<li>
+<p>デフォルト２テンプレートが作成されます。</p>
+</li>
+<li>
+<p>サイドメニューに追加されたデフォルト２をクリックして、ノートの内容に入力されている{{content}}を消去します。</p>
+</li>
+<li>
+<p>ノートの内容に先程のヘルプページに最下部にあるこちらの変数をコピーしてノートの内容に貼り付けます。</p>
+</li>
+</ol>
+<pre tabindex="0"><code>{{highlights|map: item =&gt; item.text|join:&#34;\n\n&#34;}}
+</code></pre><p>こちらはハイライトしたアイテムの配置関係を維持したまま、一段行間を開けながら追加していく変数になっています。</p>
+<p>これでハイライトクリッピングモードを使用する準備が整いました！</p>
+<h2 id="3-ハイライトクリッピングモードを使用する">3. ハイライトクリッピングモードを使用する</h2>
+<ol>
+<li>
+<p>Obsidian Web Clipperの拡張を開いて、右上にあるマーカー絵柄のボタンをクリックするとハイライトモードに切り替わります。</p>
+</li>
+<li>
+<p>カーソルを移動させながら黄色い波線に囲まれて表示される部分をクリックしていくと、ハイライトした箇所がノートに追加されていきます。</p>
+<ul>
+<li>ウェブサイトに自分用のハイライトマーカーを書き残しておけるのが本来のハイライトモードです。ハイライトは🗑️ボタンで消去しない限り、拡張機能に保存された状態になります。</li>
+</ul>
+</li>
+<li>
+<p>画面上部に表示されている”Clip highlights”という紫色のボタンを押すと、ノートにハイライトされた内容がコピーされます。</p>
+</li>
+<li>
+<p>再度拡張機能を開いて、最下部の”Obsidianに追加”ボタンを押すと、Web Clipperで作成した新しいページがObsidianに作成されます。</p>
+    </div>
+    <a href="/posts/obsidianwebclipper_highlit/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
+        
+      
+        <h2 class="f1">
           <a href="/categories/gemini%E8%A7%A3%E8%AA%AC/" class="link blue hover-black">
             Category: Gemini解説
           </a>
         </h2>
+        
+          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">投稿履歴</span>
+    <h1 class="f3 near-black">
+      <a href="/posts/notre-dame_de_paris/notre-dame_de_paris/" class="link black dim">
+        ノートルダム・ド・パリ
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <p>このページは、Hugoのクイックスタートガイドのテーマ、Anankeのサンプルページに引用されていたヴィクトル・ユゴーの小説『ノートルダム・ド・パリ』を章ごとにGeminiで日本語翻訳を行い、分かりづらい用語や言い回しについてGeminiに脚注解説を追記させたものです。</p>
+<h2 id="目次">目次</h2>
+<ol>
+<li><a href="http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris1/">第一章　大広間</a></li>
+<li><a href="http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris2/">第二章　ピエール・グランゴワール</a></li>
+<li><a href="http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris3/">第三章　枢機卿閣下</a></li>
+<li><a href="http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris4/">第四章　ジャック・コップノールの旦那</a></li>
+<li><a href="http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris5/">第五章　カジモド</a></li>
+<li><a href="http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris6/">第六章　エスメラルダ</a></li>
+</ol>
+    </div>
+    <a href="/posts/notre-dame_de_paris/notre-dame_de_paris/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
         
           <div class="relative w-100 mb4 bg-white nested-copy-line-height">
   <div class="bg-white mb3 pa4 gray overflow-hidden">
@@ -313,6 +420,13 @@
 </div>
 
         
+      
+        <h2 class="f1">
+          <a href="/categories/%E7%BF%BB%E8%A8%B3/" class="link blue hover-black">
+            Category: 翻訳
+          </a>
+        </h2>
+        
           <div class="relative w-100 mb4 bg-white nested-copy-line-height">
   <div class="bg-white mb3 pa4 gray overflow-hidden">
     <span class="f6 db">投稿履歴</span>
@@ -332,31 +446,11 @@
 <li><a href="http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris5/">第五章　カジモド</a></li>
 <li><a href="http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris6/">第六章　エスメラルダ</a></li>
 </ol>
-<hr>
-<h2 id="第一章大広間">第一章　大広間</h2>
-<p>1482年1月6日、パリでは顕現祭と愚者の祭りの二重の祭典が開催され、パリ市民は鐘の音に目を覚まします。この日は、フランドル大使たちがパリに到着し、ドーファンとフランドルのマルグリットとの結婚を締結する予定でした。グレヴ広場ではかがり火が焚かれ、ブラク礼拝堂には五月柱が立てられ、パレ・ド・ジュスティス（裁判所）では神秘劇が上演されます。多くの市民が神秘劇を見ようと裁判所に押し寄せ、大広間は人で溢れかえります。フランドル大使たちも神秘劇と愚者の教皇の選出に立ち会う予定です。<a href="http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris1/">読む&raquo;</a></p>
-<h2 id="第二章ピエールグランゴワール">第二章　ピエール・グランゴワール</h2>
-<p>詩人であり劇作家のピエール・グランゴワールは、自作の神秘劇を上演しようとしますが、民衆の野次と怒号によって中断されてしまいます。民衆は「今すぐ始めろ！」と叫び、学徒たちも騒ぎ立てます。グランゴワールは、民衆に絞首刑にされるか、枢機卿に絞首刑にされるかのジレンマに陥ります。しかし、グランゴワールは機転を利かせ、民衆を満足させるために劇を始めることを約束します。その際、黒衣の人物（グランゴワール）が、ユピテル役の役者に指示を出し、劇を再開させます。騒ぎを鎮めたグランゴワールは、観客の前に姿を現し、二人の女性から声をかけられます。<a href="http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris2/">読む&raquo;</a></p>
-<h2 id="第三章枢機卿閣下">第三章　枢機卿閣下</h2>
-<p>グランゴワールの劇が中断された原因は、ブルボン公枢機卿の到着でした。枢機卿の登場は聴衆を混乱させ、再び劇は中断されます。枢機卿は、ルイ11世とシャルル豪胆公の両方に縁戚関係があり、廷臣の精神と現存する権力への献身が特徴です。彼は、ルイとシャルルの対立の中で巧みに立ち回り、政治的経歴を無事に終えました。グランゴワールは、枢機卿の登場に不快感を覚えつつも、自己顕示欲を満たしていました。<a href="http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris3/">読む&raquo;</a></p>
-<h2 id="第四章ジャックコップノールの旦那">第四章　ジャック・コップノールの旦那</h2>
-<p>ヘントの年金受給者と枢機卿が言葉を交わす中、大柄な男ジャック・コップノールが、ギヨーム・リムと共に入場しようとします。案内係に止められますが、コップノールは自分はヘントの靴下屋だと主張します。枢機卿はコップノールをヘント市の市会議員の書記と紹介しようとしますが、コップノールはそれを拒否し、靴下屋であることを強調します。コップノールの尊大な態度は、民衆の共感を呼び、笑いと拍手が沸き起こります。コップノールは、枢機卿の前で自分の立場を主張し、対等な存在として振る舞います。<a href="http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris4/">読む&raquo;</a></p>
-<h2 id="第五章カジモド">第五章　カジモド</h2>
-<p>コップノールの発案で、醜怪顔選手権が開催されます。ブルジョワ、学者、法務官たちが一斉に動き出し、小さな礼拝堂がその舞台となります。候補者たちは礼拝堂に隠れ、扉の上の石の輪から顔を突き出します。コップノールがすべてを指示し、指揮します。枢機卿は狼狽し、グレングワールと共に退場します。醜怪顔が始まり、次々と現れる奇妙な顔に、笑いと歓喜の熱狂が増していきます。大広間は混沌と化し、もはや個々の人物の存在は認識できなくなります。この章の最後に、カジモドの名前が登場し、彼がこの醜怪顔選手権で重要な役割を果たすことが示唆されます。<a href="http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris5/">読む&raquo;</a></p>
-<h2 id="第六章エスメラルダ">第六章　エスメラルダ</h2>
-<p>グレングワールとその劇は、騒動の中、持ちこたえていました。しかし、カジモド、コップノール、道化の教皇が退場すると、群衆も彼らを追いかけ、大広間は空っぽになります。グレングワールは、残った観客に劇を続けようとしますが、今度は「エスメラルダだ！」という叫び声が上がり、観客は皆、窓に殺到します。ユピテル役の役者も梯子を奪われ、劇は完全に中断されます。グレングワールは諦め、退却しながら、パリジャンたちの愚かさを嘆き、エスメラルダとは何なのか、その言葉の意味を理解しようとします。<a href="http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris6/">読む&raquo;</a></p>
     </div>
     <a href="/posts/notre-dame_de_paris/notre-dame_de_paris/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
   </div>
 </div>
 
-        
-      
-        <h2 class="f1">
-          <a href="/categories/%E7%BF%BB%E8%A8%B3/" class="link blue hover-black">
-            Category: 翻訳
-          </a>
-        </h2>
         
           <div class="relative w-100 mb4 bg-white nested-copy-line-height">
   <div class="bg-white mb3 pa4 gray overflow-hidden">
@@ -493,44 +587,6 @@
 <p>グレングワールとその劇は、騒動の中、持ちこたえていました。しかし、カジモド、コップノール、道化の教皇が退場すると、群衆も彼らを追いかけ、大広間は空っぽになります。グレングワールは、残った観客に劇を続けようとしますが、今度は「エスメラルダだ！」という叫び声が上がり、観客は皆、窓に殺到します。ユピテル役の役者も梯子を奪われ、劇は完全に中断されます。グレングワールは諦め、退却しながら、パリジャンたちの愚かさを嘆き、エスメラルダとは何なのか、その言葉の意味を理解しようとします。<a href="http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris6/">読む&raquo;</a></p>
     </div>
     <a href="/notre-dame_de_paris_idx/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-  </div>
-</div>
-
-        
-          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">投稿履歴</span>
-    <h1 class="f3 near-black">
-      <a href="/posts/notre-dame_de_paris/notre-dame_de_paris/" class="link black dim">
-        ノートルダム・ド・パリ
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      <p>このページは、Hugoのクイックスタートガイドのテーマ、Anankeのサンプルページに引用されていたヴィクトル・ユゴーの小説『ノートルダム・ド・パリ』を章ごとにGeminiで日本語翻訳を行い、分かりづらい用語や言い回しについてGeminiに脚注解説を追記させたものです。</p>
-<h2 id="目次">目次</h2>
-<ol>
-<li><a href="http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris1/">第一章　大広間</a></li>
-<li><a href="http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris2/">第二章　ピエール・グランゴワール</a></li>
-<li><a href="http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris3/">第三章　枢機卿閣下</a></li>
-<li><a href="http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris4/">第四章　ジャック・コップノールの旦那</a></li>
-<li><a href="http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris5/">第五章　カジモド</a></li>
-<li><a href="http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris6/">第六章　エスメラルダ</a></li>
-</ol>
-<hr>
-<h2 id="第一章大広間">第一章　大広間</h2>
-<p>1482年1月6日、パリでは顕現祭と愚者の祭りの二重の祭典が開催され、パリ市民は鐘の音に目を覚まします。この日は、フランドル大使たちがパリに到着し、ドーファンとフランドルのマルグリットとの結婚を締結する予定でした。グレヴ広場ではかがり火が焚かれ、ブラク礼拝堂には五月柱が立てられ、パレ・ド・ジュスティス（裁判所）では神秘劇が上演されます。多くの市民が神秘劇を見ようと裁判所に押し寄せ、大広間は人で溢れかえります。フランドル大使たちも神秘劇と愚者の教皇の選出に立ち会う予定です。<a href="http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris1/">読む&raquo;</a></p>
-<h2 id="第二章ピエールグランゴワール">第二章　ピエール・グランゴワール</h2>
-<p>詩人であり劇作家のピエール・グランゴワールは、自作の神秘劇を上演しようとしますが、民衆の野次と怒号によって中断されてしまいます。民衆は「今すぐ始めろ！」と叫び、学徒たちも騒ぎ立てます。グランゴワールは、民衆に絞首刑にされるか、枢機卿に絞首刑にされるかのジレンマに陥ります。しかし、グランゴワールは機転を利かせ、民衆を満足させるために劇を始めることを約束します。その際、黒衣の人物（グランゴワール）が、ユピテル役の役者に指示を出し、劇を再開させます。騒ぎを鎮めたグランゴワールは、観客の前に姿を現し、二人の女性から声をかけられます。<a href="http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris2/">読む&raquo;</a></p>
-<h2 id="第三章枢機卿閣下">第三章　枢機卿閣下</h2>
-<p>グランゴワールの劇が中断された原因は、ブルボン公枢機卿の到着でした。枢機卿の登場は聴衆を混乱させ、再び劇は中断されます。枢機卿は、ルイ11世とシャルル豪胆公の両方に縁戚関係があり、廷臣の精神と現存する権力への献身が特徴です。彼は、ルイとシャルルの対立の中で巧みに立ち回り、政治的経歴を無事に終えました。グランゴワールは、枢機卿の登場に不快感を覚えつつも、自己顕示欲を満たしていました。<a href="http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris3/">読む&raquo;</a></p>
-<h2 id="第四章ジャックコップノールの旦那">第四章　ジャック・コップノールの旦那</h2>
-<p>ヘントの年金受給者と枢機卿が言葉を交わす中、大柄な男ジャック・コップノールが、ギヨーム・リムと共に入場しようとします。案内係に止められますが、コップノールは自分はヘントの靴下屋だと主張します。枢機卿はコップノールをヘント市の市会議員の書記と紹介しようとしますが、コップノールはそれを拒否し、靴下屋であることを強調します。コップノールの尊大な態度は、民衆の共感を呼び、笑いと拍手が沸き起こります。コップノールは、枢機卿の前で自分の立場を主張し、対等な存在として振る舞います。<a href="http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris4/">読む&raquo;</a></p>
-<h2 id="第五章カジモド">第五章　カジモド</h2>
-<p>コップノールの発案で、醜怪顔選手権が開催されます。ブルジョワ、学者、法務官たちが一斉に動き出し、小さな礼拝堂がその舞台となります。候補者たちは礼拝堂に隠れ、扉の上の石の輪から顔を突き出します。コップノールがすべてを指示し、指揮します。枢機卿は狼狽し、グレングワールと共に退場します。醜怪顔が始まり、次々と現れる奇妙な顔に、笑いと歓喜の熱狂が増していきます。大広間は混沌と化し、もはや個々の人物の存在は認識できなくなります。この章の最後に、カジモドの名前が登場し、彼がこの醜怪顔選手権で重要な役割を果たすことが示唆されます。<a href="http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris5/">読む&raquo;</a></p>
-<h2 id="第六章エスメラルダ">第六章　エスメラルダ</h2>
-<p>グレングワールとその劇は、騒動の中、持ちこたえていました。しかし、カジモド、コップノール、道化の教皇が退場すると、群衆も彼らを追いかけ、大広間は空っぽになります。グレングワールは、残った観客に劇を続けようとしますが、今度は「エスメラルダだ！」という叫び声が上がり、観客は皆、窓に殺到します。ユピテル役の役者も梯子を奪われ、劇は完全に中断されます。グレングワールは諦め、退却しながら、パリジャンたちの愚かさを嘆き、エスメラルダとは何なのか、その言葉の意味を理解しようとします。<a href="http://localhost:1313/posts/notre-dame_de_paris/notre-dame_de_paris6/">読む&raquo;</a></p>
-    </div>
-    <a href="/posts/notre-dame_de_paris/notre-dame_de_paris/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
   </div>
 </div>
 

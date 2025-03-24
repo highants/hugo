@@ -8,16 +8,17 @@ categories:
 editor: highants
 fmContentType: default
 date: 2025-03-21 19:24:49 +0900
-lastmod: 2025-03-21 19:12:30 +0900
+lastmod: 25-03-24 20:35:39
 ---
 
 ## 目次
 
 ギリシャ神々に関するページへのリンクを紹介します
 
+- [アナンケーDeepResearch]({{< ref "ananke_deep" >}})
 - [アフロディーテ]({{< ref "aphrodite" >}})
 - [アポロン]({{< ref "apollon" >}})
-- [アポロン深掘り]({{< ref "apollon_deep" >}})
+- [アポロンDeepResearch]({{< ref "apollon_deep" >}})
 - [アレス]({{< ref "ares" >}})
 - [アルテミス]({{< ref "artemis" >}})
 - [アテナ]({{< ref "athena" >}})

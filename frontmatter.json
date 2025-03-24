@@ -17,12 +17,12 @@
       "trailingSlash": false
     },
     {
-      "title": "memo",
-      "path": "[[workspace]]/Documents/memo"
-    },
-    {
       "title": "content",
       "path": "[[workspace]]/content"
+    },
+    {
+      "title": "posts",
+      "path": "[[workspace]]/content/posts"
     }
   ],
   "frontMatter.git.enabled": true,
@@ -41,12 +41,17 @@
         {
           "title": "date",
           "name": "date",
-          "type": "datetime"
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true,
+          "dateFormat": "YYYY-MM-DD HH:mm:ss xxx"
         },
         {
           "title": "lastmod",
           "name": "lastmod",
-          "type": "datetime"
+          "type": "datetime",
+          "isPublishDate": true,
+          "dateFormat": "YYYY-MM-DD HH:mm:ss xxx"
         },
         {
           "title": "description",
@@ -101,14 +106,14 @@
           "type": "datetime",
           "default": "{{now}}",
           "isPublishDate": true,
-          "dateFormat": "yy-MM-dd HH:mm:ss"
+          "dateFormat": "YYYY-MM-DD HH:mm:ss xxx"
         },
         {
           "title": "lastmod",
           "name": "lastmod",
           "type": "datetime",
           "isModifiedDate": true,
-          "dateFormat": "yy-MM-dd HH:mm:ss"
+          "dateFormat": "YYYY-MM-DD HH:mm:ss xxx"
         },
         {
           "title": "Description",
@@ -146,7 +151,6 @@
       "name": "page",
       "pageBundle": false,
       "previewPath": "/posts",
-      "trailingSlash": false,
       "fields": [
         {
           "title": "Title",
@@ -156,12 +160,16 @@
         {
           "title": "Pub date",
           "name": "date",
-          "type": "datetime"
+          "type": "datetime",
+          "isModifiedDate": true,
+          "dateFormat": "YYYY-MM-DD HH:mm:ss xxx"
         },
         {
           "title": "lastmod",
           "name": "lastmod",
-          "type": "datetime"
+          "type": "datetime",
+          "isModifiedDate": true,
+          "dateFormat": "YYYY-MM-DD HH:mm:ss xxx"
         },
         {
           "title": "Description",

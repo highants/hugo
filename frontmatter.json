@@ -141,6 +141,79 @@
           "type": "draft"
         }
       ]
+    },
+    {
+      "name": "page",
+      "pageBundle": false,
+      "previewPath": "/posts",
+      "trailingSlash": false,
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Pub date",
+          "name": "date",
+          "type": "datetime"
+        },
+        {
+          "title": "lastmod",
+          "name": "lastmod",
+          "type": "datetime"
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "Content preview",
+          "name": "preview",
+          "type": "image"
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "Categories",
+          "name": "categories",
+          "type": "categories"
+        },
+        {
+          "title": "fmContentType",
+          "name": "fmContentType",
+          "type": "string"
+        },
+        {
+          "title": "Is in draft",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "title": "author",
+          "name": "author",
+          "type": "string"
+        },
+        {
+          "title": "editor",
+          "name": "editor",
+          "type": "string"
+        },
+        {
+          "title": "seriesTitle",
+          "name": "seriesTitle",
+          "type": "string"
+        },
+        {
+          "title": "seriesNo",
+          "name": "seriesNo",
+          "type": "number"
+        }
+      ]
     }
   ]
 }
